@@ -5,3 +5,4 @@ linkedinpost.txt
 __pycache__/
 *.pyc
 .env
+LINKEDINPOST.md
