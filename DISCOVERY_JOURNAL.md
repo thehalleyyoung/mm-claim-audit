@@ -14,5 +14,5 @@ Overall WOUND → enter VI-D with: frozen labels, automated scorer, verifier iso
 
 ## Packaging
 
-- Skill: `skill/mm-claim-audit/SKILL.md`
+- Skill: `mm-claim-audit/SKILL.md`
 - Ship artifacts in RUN_DIR: README, METRICS, LINKEDIN_POST, canonical.json, `.gitignore` (linkedinpost.txt excluded)

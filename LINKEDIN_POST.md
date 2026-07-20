@@ -97,11 +97,11 @@ flowchart LR
 ## Install / repo
 
 ```bash
-bash ~/.derive/scripts/install_skill.sh skill/mm-claim-audit
+bash ~/.derive/scripts/install_skill.sh mm-claim-audit
 ```
 
-Skill path: `skill/mm-claim-audit/SKILL.md`  
-Eval harness: `skill/mm-claim-audit/scripts/` + `fixtures/labels.json` (held out)
+Skill path: `mm-claim-audit/SKILL.md`  
+Eval harness: `mm-claim-audit/scripts/` + `fixtures/labels.json` (held out)
 
 ---
 
