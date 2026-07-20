@@ -97,7 +97,9 @@ flowchart LR
 ## Install / repo
 
 ```bash
-bash ~/.derive/scripts/install_skill.sh mm-claim-audit
+git clone https://github.com/thehalleyyoung/mm-claim-audit.git
+cd mm-claim-audit
+bash install.sh
 ```
 
 Skill path: `mm-claim-audit/SKILL.md`  

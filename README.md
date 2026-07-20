@@ -26,10 +26,9 @@ python3 scripts/score_planted_errors.py \
 
 # Full paired eval → append lab_log.jsonl at repo root
 python3 scripts/run_eval.py --fixtures fixtures --out-log ../../lab_log.jsonl
-python3 "$DERIVE_HOME/scripts/skill_metrics.py" summarize --lab-log ../../lab_log.jsonl --out-dir ../..
 ```
 
-Paid fallback: `qwen/qwen3-vl-32b-instruct`. Optional local CPU: `ollama pull moondream` (first pull may exceed 10 minutes).
+See `METRICS.md` for measured with/without results (regenerated from `lab_log.jsonl`).
 
 ## Measured usefulness
 
@@ -57,11 +56,22 @@ Not greenfield on *problem shape* — research and marketplace neighbors exist �
 
 **Supersession delta:** image-grounded atomic VL verification + automated `verification_catch_rate` vs text-only baseline mimicking prose fact-check incumbents.
 
-## Install
+## Install (Claude + Cursor in one shot)
+
+No special tooling required — from a clone of this repo:
 
 ```bash
-bash ~/.derive/scripts/install_skill.sh mm-claim-audit --repo-root .
+git clone https://github.com/thehalleyyoung/mm-claim-audit.git
+cd mm-claim-audit
+bash install.sh
 ```
+
+That copies the skill into **both**:
+
+- `~/.claude/skills/mm-claim-audit/`
+- `~/.cursor/skills/mm-claim-audit/`
+
+Re-run `bash install.sh` after pulls to refresh.
 
 ## Limitations
 
