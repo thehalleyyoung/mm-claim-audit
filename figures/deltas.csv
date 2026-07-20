@@ -1,0 +1,10 @@
+metric,delta
+cost_per_trial,0.0
+cross_modal_consistency_rate,0.6000000000000001
+false_positive_rate,0.0
+n_caught,0.8
+n_planted,0.0
+n_refused,0.0
+success_delta_pp,80.0
+success_rate,0.8
+verification_catch_rate,0.75

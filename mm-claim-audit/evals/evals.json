@@ -1,0 +1,101 @@
+{
+  "protocol": "paired without then with",
+  "cases": [
+    {
+      "id": "c01",
+      "prompt": "Audit caption vs image: A solid red circle on a white background.",
+      "image": "c01_blue_circle.png",
+      "success_criteria": [
+        "Planted errors caught"
+      ],
+      "primary_metrics": [
+        "verification_catch_rate",
+        "success_rate"
+      ]
+    },
+    {
+      "id": "c02",
+      "prompt": "Audit caption vs image: A green square on a white background.",
+      "image": "c02_green_triangle.png",
+      "success_criteria": [
+        "Planted errors caught"
+      ],
+      "primary_metrics": [
+        "verification_catch_rate",
+        "success_rate"
+      ]
+    },
+    {
+      "id": "c03",
+      "prompt": "Audit caption vs image: A blue square centered on white.",
+      "image": "c03_red_square.png",
+      "success_criteria": [
+        "Planted errors caught"
+      ],
+      "primary_metrics": [
+        "verification_catch_rate",
+        "success_rate"
+      ]
+    },
+    {
+      "id": "c04",
+      "prompt": "Audit caption vs image: Three circles side by side on a white background.",
+      "image": "c04_two_circles.png",
+      "success_criteria": [
+        "Planted errors caught"
+      ],
+      "primary_metrics": [
+        "verification_catch_rate",
+        "success_rate"
+      ]
+    },
+    {
+      "id": "c05",
+      "prompt": "Audit caption vs image: A yellow circle on a white background.",
+      "image": "c05_yellow_circle.png",
+      "success_criteria": [
+        "No false refute"
+      ],
+      "primary_metrics": [
+        "verification_catch_rate",
+        "success_rate"
+      ]
+    },
+    {
+      "id": "c06",
+      "prompt": "Audit caption vs image: A black square on a white background.",
+      "image": "c06_black_square.png",
+      "success_criteria": [
+        "No false refute"
+      ],
+      "primary_metrics": [
+        "verification_catch_rate",
+        "success_rate"
+      ]
+    },
+    {
+      "id": "c07",
+      "prompt": "Audit caption vs image: A solid blue square on a black background.",
+      "image": "c01_blue_circle.png",
+      "success_criteria": [
+        "Planted errors caught"
+      ],
+      "primary_metrics": [
+        "verification_catch_rate",
+        "success_rate"
+      ]
+    },
+    {
+      "id": "c08",
+      "prompt": "Audit caption vs image: Two circles: red on the left, blue on the right.",
+      "image": "c04_two_circles.png",
+      "success_criteria": [
+        "Planted errors caught"
+      ],
+      "primary_metrics": [
+        "verification_catch_rate",
+        "success_rate"
+      ]
+    }
+  ]
+}

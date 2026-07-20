@@ -1,0 +1,7 @@
+# /linkedinskill ship — local LinkedIn paste buffer (never commit)
+linkedinpost.txt
+
+.DS_Store
+__pycache__/
+*.pyc
+.env

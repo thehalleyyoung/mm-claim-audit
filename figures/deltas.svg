@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360">
+<text x="40" y="24" font-family="sans-serif" font-size="14">with_skill − without_skill</text>
+<line x1="320.0" y1="40" x2="320.0" y2="320" stroke="#333" stroke-width="1"/>
+<rect x="320.0" y="44.7" width="270.0" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="61.8" font-family="sans-serif" font-size="10">success_delta_pp</text>
+<rect x="320.0" y="75.8" width="2.7" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="92.9" font-family="sans-serif" font-size="10">n_caught</text>
+<rect x="320.0" y="106.9" width="2.7" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="124.0" font-family="sans-serif" font-size="10">success_rate</text>
+<rect x="320.0" y="138.0" width="2.5" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="155.1" font-family="sans-serif" font-size="10">verification_catch_rate</text>
+<rect x="320.0" y="169.1" width="2.0" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="186.2" font-family="sans-serif" font-size="10">cross_modal_consistency_rate</text>
+<rect x="320.0" y="200.2" width="0.0" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="217.3" font-family="sans-serif" font-size="10">cost_per_trial</text>
+<rect x="320.0" y="231.3" width="0.0" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="248.4" font-family="sans-serif" font-size="10">false_positive_rate</text>
+<rect x="320.0" y="262.4" width="0.0" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="279.6" font-family="sans-serif" font-size="10">n_planted</text>
+<rect x="320.0" y="293.6" width="0.0" height="21.8" fill="#2a9d8f"/>
+<text x="40" y="310.7" font-family="sans-serif" font-size="10">n_refused</text>
+</svg>

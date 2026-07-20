@@ -1,0 +1,31 @@
+{
+  "overall": "WOUND",
+  "verdicts": [
+    {
+      "critic": "reviewer2",
+      "verdict": "WOUND"
+    },
+    {
+      "critic": "implementation_skeptic",
+      "verdict": "WOUND"
+    },
+    {
+      "critic": "metric_skeptic",
+      "verdict": "KILL",
+      "note": "pre-lab zero metrics \u2014 treat as WOUND-to-lab with required automated harness"
+    },
+    {
+      "critic": "skill_user",
+      "verdict": "WOUND"
+    },
+    {
+      "critic": "broke_grad_student",
+      "verdict": "WOUND"
+    },
+    {
+      "critic": "responsible_disclosure",
+      "verdict": "PASS"
+    }
+  ],
+  "action": "proceed_VI-D_with_fixes"
+}

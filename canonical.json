@@ -1,0 +1,29 @@
+{
+  "skill_name": "mm-claim-audit",
+  "thesis": "Supersede prose-only fact-check skills with portable black-box multimodal claim audit on cheap VL APIs.",
+  "lattice_key": "black-box-multimodal-verification",
+  "supersession_key": "multimodal-fact-check",
+  "archive_cell": "ls:black-box-multimodal-verification|black-box-multimodal-audit|multimodal-fact-check|openrouter-vl+ollama-moondream",
+  "gap_score": 0.15501607679961008,
+  "seed": "f725ffac4ee2ea6e6deddb9116937b5e99e1a8e7795eae9390a501a42f9d22bf",
+  "models": {
+    "orchestration": "cursor-auto",
+    "eval_subjects": ["nvidia/nemotron-nano-12b-v2-vl:free", "qwen/qwen3-vl-32b-instruct", "moondream"]
+  },
+  "primary_metrics": {
+    "verification_catch_rate_delta": 0.75,
+    "success_rate_delta": 0.8,
+    "success_delta_pp": 80,
+    "cross_modal_consistency_rate_delta": 0.6,
+    "usefulness_blend": 0.8434,
+    "n_trials": 20
+  },
+  "incumbents": [
+    "jwynia/agent-skills@fact-check",
+    "pedrohcgs/claude-code-my-workflow@verify-claims",
+    "elvisun/newsjack@fact-check"
+  ],
+  "repo_name_suggested": "mm-claim-audit",
+  "novelty_census_gate": "PASS",
+  "enough_signal": "PASS"
+}
