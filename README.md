@@ -4,14 +4,14 @@ Portable black-box multimodal claim audit: decompose image captions into atomic 
 
 ## What this is
 
-Dual-install Claude + Cursor skill (`skill/mm-claim-audit/`) with a frozen planted-error eval harness.
+Dual-install Claude + Cursor skill (`mm-claim-audit/`) with a frozen planted-error eval harness.
 Orchestration: Cursor **Auto**. Eval subject: `nvidia/nemotron-nano-12b-v2-vl:free` (OpenRouter free tier).
 
 ## Quickstart (≤10 minutes)
 
 ```bash
 export OPENROUTER_API_KEY=...
-cd skill/mm-claim-audit
+cd mm-claim-audit
 
 # One planted-error case
 python3 scripts/verify_claims.py --mode with_skill \
@@ -60,7 +60,7 @@ Not greenfield on *problem shape* — research and marketplace neighbors exist �
 ## Install
 
 ```bash
-bash ~/.derive/scripts/install_skill.sh skill/mm-claim-audit --repo-root .
+bash ~/.derive/scripts/install_skill.sh mm-claim-audit --repo-root .
 ```
 
 ## Limitations
